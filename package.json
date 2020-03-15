@@ -1,0 +1,36 @@
+{
+  "name": "skylark-awesomplete",
+  "description": "A version of awesomplete that ported to running on skylarkjs ui.",
+  "version": "0.9.0",
+  "keywords": [
+    "skylark",
+    "integration",
+    "select"
+  ],
+  "homepage": "https://github.com/skylark-integration/skylark-awesomplete/",
+  "author": "Hudaokeji, Inc.",
+  "scripts": {
+    "build": "sbundle build ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skylark-integration/skylark-awesomplete.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skylark-integration/skylark-awesomplete/issues"
+  },
+  "files": [
+    "demo/",
+    "dist/",
+    "src/",
+    "skins/"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "skylark-jquery": "git+https://github.com/skylark-integration/skylark-jquery.git#master",
+    "skylark-langx": "git+https://github.com/skylarklangx/skylark-langx.git#master"
+  },
+  "engines": {
+    "node": ">=0.10.1"
+  }
+}
